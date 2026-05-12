@@ -18,7 +18,7 @@ function App() {
     const token = localStorage.getItem("token");
 
     axios
-      .get("http://127.0.0.1:8000/api/products/", {
+      .get("https://ecommerce-bowb.onrender.com/api/products/", {
         
         
       })
